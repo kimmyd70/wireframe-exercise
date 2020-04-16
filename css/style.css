@@ -1,0 +1,64 @@
+/* styling to match wireframe as given in assignment*/
+
+header, footer {
+    display: inline-flex;
+    background-color: rgb(58, 56, 56);
+    height: 100px;
+    width: 100%;
+}   
+
+header img {
+    max-height: 70px;
+    max-width: 200px;
+    margin: 15px 0px 0px 200px;
+}
+
+nav ul{
+    margin: 35px;
+}
+
+nav ul li{
+    display: inline;
+    color: #ddd;
+    font-size: 15px;
+    margin: 60px;
+}
+section{
+    display: inline-flex;
+    align-items: center;
+    width: 950px;
+    margin: 30px 200px 0px;
+}
+
+section img {
+    margin: 0px 30px 0px 0px;
+}
+
+article {
+    display: block;
+    margin: 0px 30px 0px 0px;
+}
+
+article > p{
+    overflow: scroll;
+    max-height: 320px   
+}
+
+article >ul {
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5%;
+    color: #ddd;
+    margin-top: 10px;
+}
+h3{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 30px;
+}
